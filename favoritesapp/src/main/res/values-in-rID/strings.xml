@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Katalog Movie</string>
+    <string name="movie">Movie</string>
+    <string name="detail_intent">detail_intent</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="navigate_to">Navigate To</string>
+    <string name="search">Pencarian</string>
+    <string name="upcoming">Mendatang</string>
+    <string name="now_playing">Ditayangkan</string>
+    <string name="movie_catalogue">Katalog Movie</string>
+
+    <string name="api_language">id-Id</string>
+    <string name="language">Bahasa</string>
+    <string name="minutes"> Menit</string>
+    <string name="user_votes">  Suara Pengguna</string>
+    <string name="average">/10 RATA.</string>
+    <string name="plot">Alur</string>
+    <string name="casts">Pemeran</string>
+    <string name="no_overview">Tidak ada plot yang tersedia</string>
+    <string name="genres_language">Indonesia</string>
+</resources>

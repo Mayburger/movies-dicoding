@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="textMovieTitle" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:text">@string/interstellar</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_30sp</item>
+    </style>
+
+    <style name="textMovieAverage" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:text">@string/_7_10_avg</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_14sp</item>
+    </style>
+
+    <style name="textMovieVotes" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:text">@string/votes</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_12sp</item>
+    </style>
+
+    <style name="textMovieYear" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/roboto_black</item>
+        <item name="android:text">@string/_2014</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_18sp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/dimen_14dp</item>
+    </style>
+
+    <style name="textMovieDuration" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:text">@string/_184_minutes</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_12sp</item>
+        <item name="android:layout_marginLeft">@dimen/dimen_4dp</item>
+    </style>
+
+    <style name="textMoviePercentage" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/bungee</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_40sp</item>
+    </style>
+
+    <style name="textMovieNavigation" parent="@android:style/TextAppearance">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:textSize">@dimen/text_20sp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
